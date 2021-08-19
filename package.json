@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "./node_modules/.bin/nodemon --inspect ./index.js",
-    "start": "./node_modules/.bin/forever ./index.js"
+    "start": "./node_modules/.bin/forever ./index.js",
+    "stop": "./node_modules/.bin/forever stopall"
   },
   "repository": {
     "type": "git",
