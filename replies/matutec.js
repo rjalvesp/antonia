@@ -1,4 +1,3 @@
 module.exports = {
-  "!matutec": (msg) => 
-  msg.channel.send(`Ese comando es como mi almuerzo, inexistente.`)
-}
+  "!matutec": (msg) => msg.channel.send(`Nunca tendré el amor de ella.`),
+};
